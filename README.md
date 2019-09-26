@@ -1,7 +1,7 @@
 # redux-thunk-monitor
 
 [![build status](https://img.shields.io/travis/thomasw/redux-thunk-monitor/master.svg?style=flat-square)](https://travis-ci.org/thomasw/redux-thunk-monitor)
-[![npm version](https://img.shields.io/npm/v/redux-thunk-monitory.svg?style=flat-square)](https://www.npmjs.com/package/redux-thunk-monitor)
+[![npm version](https://img.shields.io/npm/v/redux-thunk-monitor.svg?style=flat-square)](https://www.npmjs.com/package/redux-thunk-monitor)
 [![npm downloads](https://img.shields.io/npm/dm/redux-thunk-monitor.svg?style=flat-square)](https://www.npmjs.com/package/redux-thunk-monitor)
 
 redux-thunk-monitor provides an automatic, generic way to record redux-thunk loading/error disposition in your application state. Relevant consumers can read loading/error data directly from state rather than explicitly monitoring and passing this information around to descendants.
