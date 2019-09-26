@@ -21,6 +21,8 @@ function recordError(
   monitorId: string,
   dispatch: Dispatch
 ): void {
+  // TODO: We could make this behavior generic by enabling consumers to attach
+  // an error serialization method to the monitored thunk.
   dispatch(setError(monitorId, getErrorData(exc)));
 }
 

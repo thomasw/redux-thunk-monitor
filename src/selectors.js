@@ -5,6 +5,9 @@ type GlobalState = {
   +thunks: State
 };
 
+// TODO: We can make the thunks key consumer configurable by modifying these
+// selectors
+
 export function getLoadingCount(state: GlobalState, id: string) {
   const requests = state.thunks.requests[id] || [];
 
