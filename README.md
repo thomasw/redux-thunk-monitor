@@ -1,6 +1,6 @@
 # redux-thunk-monitor
 
-redux-thunk-monitor provides an automatic, generic way to record redux-thunk loading/error disposition in your application state so that relevant consumers do not need to explicitly monitor or pass this information around to descendants.
+redux-thunk-monitor provides an automatic, generic way to record redux-thunk loading/error disposition in your application state. Relevant consumers can read loading/error data directly from state rather than explicitly monitoring and passing this information around to descendants.
 
 ## Installation
 

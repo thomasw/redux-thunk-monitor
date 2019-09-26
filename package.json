@@ -1,7 +1,7 @@
 {
   "name": "redux-thunk-monitor",
   "version": "1.0.0",
-  "description": "redux-thunk-monitor provides an automatic, generic way to record redux-thunk loading/error disposition in your application state so that relevant consumers do not need to explicitly monitor or pass this information around to descendants.",
+  "description": "redux-thunk-monitor provides an automatic, generic way to record redux-thunk loading/error disposition in your application state. Relevant consumers can read loading/error data directly from state rather than explicitly monitoring and passing this information around to descendants.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
